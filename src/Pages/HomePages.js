@@ -5,7 +5,7 @@ const HomePages = () => {
   return (
    <div>
     <Navbar/>
-Hola
+
    
 </div>
   )
