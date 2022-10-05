@@ -1,8 +1,13 @@
 import React from 'react';
+import Navbar from  '../Components/Navbar/Navbar';
 
 const HomePages = () => {
   return (
-    <div>Hola Mundo, porky alcalde 2022 de todo lima </div>
+   <div>
+    <Navbar/>
+Hola
+   
+</div>
   )
 }
 
