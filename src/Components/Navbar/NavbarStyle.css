@@ -2,7 +2,8 @@
   width: 100%;
 display: inline-flex;
 justify-content: right;
-background-color: cadetblue;
+background-color: black;
+
 }
  a{
 display: inline-flex;
@@ -10,7 +11,7 @@ display: inline-flex;
   text-align: end;
   padding: 10px;
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
  
 }
 
