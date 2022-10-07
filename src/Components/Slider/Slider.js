@@ -115,11 +115,16 @@ const Slider = () => {
        <div className="card h-100">
       <img src= {Druno} className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title">Lic. Pedro Castillo</h5>
+        <p className="card-text">
+        Podologia
+        <br />Reumatologia
+        <br />Kinesiologo 
+            </p>
       </div>
       <div className="card-footer">
-        <small className="text-muted">Last updated 3 mins ago</small>
+        <small className="text-muted">Jue. a Sab. 10am a 3pm</small>
+        <button type="button" class="btn btn-dark">Agendar</button>
       </div>
     </div>
        </div>
@@ -128,11 +133,16 @@ const Slider = () => {
     <div className="card h-100">
       <img src={Drdos} className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <h5 className="card-title">Lic.Francisco Vega</h5>
+        <p className="card-text">
+              Neurologia
+        <br />Radiologia
+        <br />Traumatologia
+        </p>
       </div>
       <div className="card-footer">
-        <small className="text-muted">Last updated 3 mins ago</small>
+        <small className="text-muted">Lun. a Sab. 9am a 3pm</small>
+        <button type="button" class="btn btn-dark">Agendar</button>
       </div>
     </div>
        </div>
@@ -142,11 +152,16 @@ const Slider = () => {
     <div className="card h-100">
       <img src={Drseis} class="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <h5 className="card-title">Dra Julia Ramos</h5>
+        <p className="card-text">
+        Fisioterapia
+        <br />Traumatologia
+        <br /> Deportiva
+        </p>
       </div>
       <div className="card-footer">
-        <small className="text-muted">Last updated 3 mins ago</small>
+        <small className="text-muted">Jue. a Sab. 10am a 3pm</small>
+        <button type="button" class="btn btn-dark">Agendar</button>
       </div>
     </div>
        </div>
@@ -155,11 +170,17 @@ const Slider = () => {
     <div className="card h-100">
       <img src={Drnueve} class="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <h5 className="card-title">Dra Rosario Juarez</h5>
+        <p className="card-text">
+        Traumatolgia
+        <br />Cirugia Menor
+        <br /> Neurologia
+
+        </p>
       </div>
       <div className="card-footer">
-        <small className="text-muted">Last updated 3 mins ago</small>
+        <small className="text-muted">Jue. a Sab. 10am a 3pm</small>
+        <button type="button" class="btn btn-dark">Agendar</button>
       </div>
     </div>
        </div>
@@ -175,11 +196,18 @@ const Slider = () => {
        <div className="card h-100">
       <img src={Drsiete} className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title">Lic. Julio Roque</h5>
+        <p className="card-text">
+        Anestesiologia
+        <br />Cirugia Menor
+        <br />Traumataologia
+
+        </p>
       </div>
       <div className="card-footer">
-        <small className="text-muted">Last updated 3 mins ago</small>
+        <small className="text-muted">
+        Lun. a Sab. 10am a 3pm</small>
+        <button type="button" class="btn btn-dark">Agendar</button> 
       </div>
     </div>
        </div>
@@ -188,11 +216,17 @@ const Slider = () => {
     <div className="card h-100">
       <img src={Drocho} className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <h5 className="card-title">Lic Tamara Ruiz</h5>
+        <p className="card-text">
+        Anestesiologia
+        <br />Cirugia Menor
+        <br />Traumataologia
+
+        </p>
       </div>
       <div className="card-footer">
-        <small className="text-muted">Last updated 3 mins ago</small>
+        <small className="text-muted">Lun. a Sab. 10am a 3pm</small>
+        <button type="button" class="btn btn-dark">Agendar</button> 
       </div>
     </div>
        </div>
@@ -202,11 +236,14 @@ const Slider = () => {
     <div className="card h-100">
       <img src={Drnueve} class="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <h5 className="card-title">Dra Rosa Cardenas</h5>
+        <p className="card-text">  Fisioterapia
+        <br />Traumatologia
+        <br /> Deportiva  </p>
       </div>
       <div className="card-footer">
-        <small className="text-muted">Last updated 3 mins ago</small>
+        <small className="text-muted">Mie. a Sab. 10am a 3pm</small>
+        <button type="button" class="btn btn-dark">Agendar</button>
       </div>
     </div>
        </div>
@@ -215,11 +252,17 @@ const Slider = () => {
     <div className="card h-100">
       <img src={Drnueve} class="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <h5 className="card-title">Lic Lucia Rosello</h5>
+        <p className="card-text">
+        Neurologia
+        <br />Traumatologia
+        <br /> Rehabilitacion
+
+        </p>
       </div>
       <div className="card-footer">
-        <small className="text-muted">Last updated 3 mins ago</small>
+        <small className="text-muted">Lun. a Sab. 10am a 3pm</small>
+        <button type="button" class="btn btn-dark">Agendar</button>
       </div>
     </div>
        </div>
