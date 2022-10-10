@@ -7,15 +7,19 @@
         <div className='Container-navuno'>
 
 
-<ul>
+<ul className='barra'>
     
-
-<a href="#">Preguntas Frecuentes </a> 
+<a href="#">Inicio</a>
+<a href="#">| Tratamientos</a> 
+<a href=""> | Terapias </a>
 <a href="#">| Unete a nosotros </a>
-<a href="#">| Iniciar Sesion</a>
-
+<a href="">| VideoBlog</a>
+<a href="">| Contactanos</a>
     
 </ul>
+
+
+
         </div>
       )
     }

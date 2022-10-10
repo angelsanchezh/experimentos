@@ -1,17 +1,16 @@
 .Container-navuno{
   width: 100%;
 display: inline-flex;
-justify-content: right;
-background-color: black;
+justify-content: center;
+background-color: #1ec1e4;;
 
 }
- a{
+.Container-navuno, .barra > a{
 display: inline-flex;
-  justify-content: center;
-  text-align: end;
+  
   padding: 10px;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: white
  
 }
 
