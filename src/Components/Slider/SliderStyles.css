@@ -16,13 +16,17 @@ margin-top: 50px;
 width: 1250px;
 height: 550px;
 }
-.carousel-control-prev-icon {
-    filter: invert(120%);
+.carousel-control-prev-icon{
+    filter: invert(100%);
+   margin-right: 70px;
 }
-.carousel-control-next-icon {
-    right: 50px;
-    filter: invert(120%);
+
+.carousel-control-next-icon{
+    filter: invert(100%);
+    margin-left: 90px;
+
 }
+
 .card-title{
     color:#1ec1e4;
     text-align: center;
@@ -35,17 +39,35 @@ height: 550px;
 
 
 .card-footer, .text-muted{
-    padding-right: 25px;
+    padding-right: 15px;
 }
 .btn{
     border: none;
+    background-color:#2596be;
 
 }
 .btn:hover{
 background-color:blue;
    transform:translateY(-4px); 
    transition: all 0.4s ease-in-out;
-  
-
+  }
+.card-body-principal{
+    display: inline-flex;
+    width: 95%;
 }
 
+
+
+
+
+.card-redes > a{
+    display: flex;
+    color: #1ec1e4;
+    padding: 5px;
+}
+
+.card-redes > a:hover{
+    color: gray;
+    transition: all 0.5s ease-in-out;
+    
+}
