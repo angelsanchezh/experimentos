@@ -1,21 +1,72 @@
+.Container-superior{
+  width: 100%;
+
+  
+}
 .Container-navuno{
   width: 100%;
 display: grid;
-grid-template-columns: 1fr 2fr;
-background-color: #1ec1e4;;
+grid-template-columns: 1fr 3fr ;
+background-color:white;
+}
+.Container-Contacto{
+  width: 100%;
+display: flex;
+justify-content: space-between;
+padding: 10px 20px 10px 20px;
+  background-color:#1ec1e4 ;
+  margin-bottom: 10px;
+}
+
+.Container-Contacto, .bi > a{
+ 
+  text-decoration: none;
+  font-weight: 300;
+  color: white;
+  padding: 10px;
+}
+
+  .Redes >a {
+color:white;
+padding: 10px;
+
+}
+.logo img{
+  width: 30%;
 
 }
 
-.Container-navuno, .barra > a{
+.Barra ul > a{
 display: inline-flex;
 justify-content: center;
 align-items: center;
-  padding: 10px;
+  padding: 5px 25px 5px 25px;
   text-decoration: none;
-  color: white;
-  font-weight: 400;
-  
- 
+  color:gray ;
+  font-weight: 300;
+}
+
+@media  and (min-width: 300px) {
+  .Container-Contacto{
+display:flex;
+font-size: small;
+
+  }
+  .Container-Contacto, .bi > a{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .Barra ul > a{
+color: black;
+  }
+
+  .logo img{
+
+   display: none
+
+  }
 }
 
 
