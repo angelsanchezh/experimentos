@@ -5,10 +5,13 @@ import './CoverStyle.css';
 const Cover = () => {
   return (
     <div className='Container-Cover'>
-<h1> Aprenda a vivir una vida sin dolor</h1>
+
 <img src={banner2} alt="" />
+<div className='Texto'>
+<p> Aprenda a vivir </p>
+<p className='segundo'> una vida sin dolor ...</p>
 
-
+</div>
     </div>
   )
 }
