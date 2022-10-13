@@ -1,12 +1,28 @@
-.Container-Cover img{
-    width: 100%;
-  object-fit: cover;
-
+.Container-Cover{ 
+  position: relative;
+  display: block;  
 }
+.Texto{
+   position: absolute;
+   top: 35%;
+   left: 15%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-weight: 800;
+   font-size: 40px;
+}
+  p{
+   margin: 0;
+ 
+  }
+  .segundo{
+   color: yellow;
+   position: absolute;
+   left: 20%;
+  }
 
-.Container-Cover  h1{
-    display: flex;
-    justify-content: start;
-    text-align: start;
-    color: white;
+
+.Container-Cover img{
+ width: 100%;
+object-fit: cover;
 }

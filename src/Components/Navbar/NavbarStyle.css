@@ -45,29 +45,3 @@ align-items: center;
   color:gray ;
   font-weight: 300;
 }
-
-@media  and (min-width: 300px) {
-  .Container-Contacto{
-display:flex;
-font-size: small;
-
-  }
-  .Container-Contacto, .bi > a{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-  }
-
-  .Barra ul > a{
-color: black;
-  }
-
-  .logo img{
-
-   display: none
-
-  }
-}
-
-
-

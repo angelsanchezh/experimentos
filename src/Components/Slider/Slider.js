@@ -17,8 +17,11 @@ const Slider = () => {
 
     <div className='Container-principal'>
   
-  <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
   
+
+  <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
+  <h1>Staff Medico</h1>
+  <hr />
   <div className="carousel-inner">
 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>

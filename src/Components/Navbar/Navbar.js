@@ -47,14 +47,15 @@ const Navbar = () => {
 
         </div>
         <div className='Barra'>
+          
           <ul>
 
             <a href="#">Inicio</a>
             <a href="#">Tratamientos</a>
-            <a href=""> Terapias </a>
+            <a href="#"> Terapias </a>
             <a href="#"> Unete a nosotros </a>
-            <a href=""> VideoBlog</a>
-            <a href=""> Contactanos</a>
+            <a href="#"> VideoBlog</a>
+            <a href="#"> Contactanos</a>
 
           </ul>
 
